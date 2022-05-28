@@ -1,0 +1,20 @@
+{
+    "name": "selfe-sys",
+    "dockerFile": "Dockerfile",
+    "containerUser": "nick",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "eamodio.gitlens"
+            ]
+        }
+    },
+    "mounts": [
+        "target=/home/nick,source=nick-home,type=volume"
+    ],
+    "forwardPorts": [
+        3000
+    ],
+    "remoteUser": "nick"
+}
