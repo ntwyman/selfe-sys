@@ -6,7 +6,9 @@
         "vscode": {
             "extensions": [
                 "dbaeumer.vscode-eslint",
-                "eamodio.gitlens"
+                "eamodio.gitlens",
+                "ms-vscode.cpptools-extension-pack",
+                "rust-lang.rust"
             ]
         }
     },
